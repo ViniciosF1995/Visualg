@@ -1,0 +1,40 @@
+Algoritmo "Balonismo"
+
+Var
+tempoDePasseio, valorMetroCubico, pessoas, taxaPessoas:Real
+totalMetroCubico, totalTaxa, totalPasseio: Real
+minutosTotal, metrosCubicos, metrosCubicosMin:real
+totalGas:real
+Inicio
+
+taxaPessoas <- 20
+valorMetroCubico <- 15
+metrosCubicos <- 10
+minutosTotal<- 5
+Escreva("Quantas pessoas vão no passeio?")
+Leia(pessoas)
+EscrevaL
+Escreva("Quantos minutos será o passeio?")
+leia(tempoDePasseio)
+Escreval
+totalTaxa <- taxaPessoas * pessoas
+escreval
+
+metrosCubicosMin <- metrosCubicos / minutosTotal
+escreval
+totalGas <- metrosCubicosMin * tempoDePasseio
+escreval
+totalMetroCubico <-  totalGas * valorMetroCubico
+
+totalPasseio <- totalMetroCubico + totalTaxa
+
+Escreva("O Total da taxa foi de: R$", totalTaxa )
+Escreval
+Escreva("O valor do metro cubico por minuto é de: R$", totalMetroCubico)
+Escreval
+Escreva("O valor final do passeio é de: R$", totalPasseio)
+
+
+
+
+Fimalgoritmo
